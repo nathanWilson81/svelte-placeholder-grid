@@ -1,5 +1,11 @@
 <script>
-  import "../app.css"
+	import '../app.css';
 </script>
 
-<slot />
+<h1>Image Grid - Svelte</h1>
+<a href="/">
+  Return to main page
+</a>
+<div class="w-full h-screen p-16">
+  <slot />
+</div>
